@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100%;
+    background-color: #fff;
 }
 input{
     height: 35%;
@@ -25,23 +25,19 @@ button:active{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-    height: 100vh;
 }
 .keyboard-wrapper{
-    display: flex;    
-    align-items: center;
+    display: flex;
     margin: 1em;
-    justify-content: flex-end;
-    flex-direction: column;
-    /* height: 45%; */
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 905px;
+    height: 360px;
 }
 .space{
     width: 890px;
 }
-.fiirst-row, .second-row, .thirt-row, .numbers{
-    display: flex;
-}
+
 #button27{
     width: 90px;
 }
